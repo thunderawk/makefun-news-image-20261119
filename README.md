@@ -1,33 +1,17 @@
-# The World in One Day — Thursday 19 November 2026
+# makefun-news-image-20261119
 
-A one-page newspaper front page summing up 19 November 2026, made for the
-[news-image-20261119](https://make.fun/bounty/news-image-20261119) bounty
-on make.fun.
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/thunderawk/makefun-news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/thunderawk/makefun-news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
-## The page
+A vintage newspaper front page summing up 19 November 2026 — masthead date first, then one lead story and eight briefs across geopolitics, culture, business, US politics, the Middle East, Europe and science, each as reported on 19 November 2026.
 
-Masthead date first, then one hero story and seven briefs — eight stories
-across geopolitics, culture, business, US politics, the Middle East, Europe
-and science, each as reported on 19 November 2026:
-
-- **Hero:** Trump, Xi and Putin meet in Shenzhen (APEC summit)
-- **Culture:** GTA VI launches worldwide
-- **Middle East:** US and Iran trade fire across the Gulf
-- **Business:** Anthropic's $81.3bn IPO, the largest ever
-- **United States:** Jeffries set to be first Black House Speaker
-- **Middle East:** Israel launches ground operation in Gaza
-- **Europe:** Ukraine strikes Crimean bridge again
-- **Science:** Voyager 1 reaches one light-day from Earth
-
-The design is deliberately sparse: eight stories, not forty, so every
-headline stays legible when the page is viewed at phone size.
-
-## How it runs
-
-`main.py` is Python 3.13, standard library only. It copies the front page
-(`entry.png`, 1024x1024, 139 KB) to `/output/entry.png`. Run it twice and
-the output bytes are identical.
+## Run it
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=mt633ffr&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
